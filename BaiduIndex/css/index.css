@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 1em sans-serif;
+}
+a {
+    text-decoration: none;
+    color: rgb(150, 149, 149);
+}
+img {
+    /* text-align:center; */
+    /* margin: 0 auto; */
+    margin-top: 15%;
+    margin-bottom: -30px;
+    width: 270px;
+    height: 130px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+}
+#left_header {
+    padding-left: 24px;
+    float: left;
+}
+#left_header li {
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+    margin-right: 29px;
+}
+#left_header li a {
+    font-size: small;
+    color: black;
+}
+#left_header li a:hover {
+    color: cornflowerblue;
+}
+#right_header {
+    padding-right: 24px;
+    float: right;
+}
+#right_header li {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+    margin-left: 29px;
+}
+#right_header li a {
+    font-size: small;
+    color: black;
+}
+#right_header li a:hover {
+    color: cornflowerblue;
+}
+.main {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    bottom: 40px;;
+    background-color: white;
+}
+#seacher_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    width: 45%;
+    text-align: center;
+    margin: 0 auto; 
+}
+#search_form {
+    width: 100%;
+    border: none;
+    /* border-radius: 20px; */
+    margin-top: 10px;
+    height: 44px;
+}
+.fileDiv {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px rgb(228, 226, 226);
+}
+.dargFile {
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px dashed rgb(228, 226, 226);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.dargFile p {
+    font-size: small;
+    color: grey;
+}
+.a-upload {
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: white;
+    background: #4e6ef2;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: small;
+}
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+.fileDiv span {
+    float: right;
+    position: relative;
+    bottom: -40px;
+}
+#search_form input:first-child {
+    border: 3px solid rgb(181, 182, 184);
+    border-right: none !important;
+    border-radius: 10px 0px 0px 10px;
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+#search_form input:first-child:focus {
+    outline: none;
+    border: 3px solid #4e6ef2 !important;
+    border-right: none !important;
+}
+#search_form span {
+    /* margin: 20px 0px 0px -50px; */
+    margin-left: -50px;
+    position: relative;
+    top: 10px;
+}
+#search_form input:last-child {
+    width: 20%;
+    height: 100%;
+    float: right;
+    color: white;
+    border: none;
+    background-color: #4e6ef2;
+    border-radius: 0px 10px 10px 0px;
+}
+#search_form input:last-child:focus {
+    outline: none;
+    background-color: #3b54bb;
+}
+#search_form input:last-child:hover {
+    outline: none;
+    background-color: #3b54bb;
+}
+.main li {
+    list-style: none;
+    float: left;
+    margin: 20px 0px 0px 10px;
+}
+.main li a {color: red;}
+.footer {
+    width: 100%;
+    height: 40px;;
+    background-color: rgb(248, 246, 246);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#left_footer li {
+    list-style: none;
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
+#left_footer li a {
+    color: grey;
+    font-size: small;
+}
+#left_footer li a:hover {
+    color: black;
+}
+#right_footer li {
+    list-style: none;
+    float: right;
+    color: rgb(197, 194, 194);
+    font-size: small;
+    margin: 10px 10px 0px 0px;
+}
+#right_footer li a {
+    color: rgb(197, 194, 194);
+    font-size: small;
+}
+#right_footer li a:hover {
+    color: black;
+}
+button {
+    width: 200px;
+    height: 50px;
+}
+button:first-child {
+    background-color: red;
+}
